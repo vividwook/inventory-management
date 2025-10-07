@@ -1,4 +1,4 @@
 flask
 flask-sqlalchemy
 flask-cors
-phycopg2-binary
+psycopg2-binary
