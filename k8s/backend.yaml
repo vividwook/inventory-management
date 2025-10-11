@@ -28,6 +28,8 @@ spec:
       labels:
         app: backend
     spec:
+      imagePullSecrets:
+        - name: ghcr-pull
       containers:
         - name: backend
           image: ghcr.io/vividwook/inventory-backend:latest
